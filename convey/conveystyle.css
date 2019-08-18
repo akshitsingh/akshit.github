@@ -1,0 +1,196 @@
+body{
+    margin:0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+}
+ .back-cover{
+     background-image: url(images/banner.png);
+     width:100%;
+     height:400px; 
+     background-size:cover;
+     background-position: center;
+     position: relative; 
+ }
+ 
+.navbar .navbar-nav .nav-item >a{
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+    font-size:13px;
+    color:white;
+}
+.dropdown .dropdown-menu{
+    border-radius:0.5rem;
+    min-width:8rem;
+}
+.navbar-nav .nav-item .nav-link{
+    margin-right:2.5rem;
+     
+}
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:3px;
+    margin-bottom:3px; 
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .dropdown .dropdown-menu{
+      padding:0;
+  }
+  .dropdown .dropdown-menu a{
+      padding:10px;
+      display:block;
+      text-align: center;
+  }
+  .dropdown .dropdown-menu a:hover{
+    background-color:rgb(221, 209, 209); 
+    transition:.2s;
+    border-radius:0.5rem;  
+  }
+  .navbar .navbar-nav .dropdown:hover .dropdown-menu{
+      display: block; 
+  }
+  .dropdown-menu::after{
+    content:'';
+    position: absolute;
+    top:-05px;
+    left:50%;
+    margin-left:-5px;
+    width:10px;
+    height:10px;
+    background-color:white;
+    z-index:-1;
+    transform:rotate(45deg);
+}
+.back-cover::after{
+    content:'contact us';
+    padding:10px 30px;
+    position: absolute;
+    bottom:-20px;
+    left:09%;
+    background: linear-gradient(to right,#2799dd,#2658cc);
+    color:white;
+    text-transform: uppercase;
+    font-size:18px;
+}
+.cont-button{
+    border:1px solid white;
+    border-radius:0.5rem;
+    padding:0.3rem 1rem!important;
+}
+.cont-button:hover{
+    background-color:green;
+    border:none;
+}
+.container .home{ 
+    padding:40px 0px;
+    font-size:18px;
+}
+.container .home a{
+    color:grey;
+}
+.contact-page{
+    width:100%;
+    border-radius: 0.5rem;
+    height:auto;
+    box-shadow: 0 0 80px -40px rgba(0,0,0,.53);
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-page .contact-img{
+    width:40%;
+    color: #dbdbdb;
+    background-image:url(images/form-background.png);
+    background-size: cover;
+    background-position-x: center;
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+}
+.contact-page .contact-img .contact-text{
+    padding:50px 40px 20px;
+    font-size:20px;
+    font-family: Lato,sans-serif;
+}
+.contact-page .contact-img .line{
+    width:20px;
+    border:1.5px solid white;
+    margin:0px 40px;
+}
+.contact-page .contact-img .cont-text2{
+    padding:20px 40px;
+    font-size:16px;
+    font-family: Lato,sans-serif;
+}
+.contact-page .contact-form{
+     width:60%;
+     padding:48px 48px;
+}
+select option{
+    background-color: #f2f2f2;
+}
+ @media(max-width:992px){
+    .contact-page .contact-img{
+        width:100%;
+ }
+ .contact-page .contact-form{
+    width:100%;
+}
+}
+ .contact-page .contact-form{
+    width:60%;
+    padding:48px 48px;
+ }
+  input[type]{ 
+    border:none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    border-radius: 0;
+    outline: none;
+     
+ }
+ input:focus{
+    outline:none;
+    background-color:none;
+
+}
+@media(min-width:992px){
+   .form-line{
+      display:flex;
+      text-align: center;
+      flex-wrap: row wrap;
+      justify-content: space-between;
+      margin-top:1rem;
+   }
+   input[type="text"] {
+      width:auto;
+   }
+}
+.get-up{
+    background: linear-gradient(to right,#2799dd,#2658cc);
+    padding:55px 0;
+    font-size:30px;
+} 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+  }
+   
+.fa-facebook,.fa-twitter,.fa-linkedin{
+    background-color:none;
+    color:white;
+    border:none;
+}  
+footer{
+    background-color:black;
+    padding:30px 0;
+}
